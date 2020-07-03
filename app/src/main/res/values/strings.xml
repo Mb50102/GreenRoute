@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GreenRoute</string>
+    <string name="search">Search</string>
+    <string name="StartRoute">Start</string>
+    <string name="Reset">Reset</string>
+    <string name="Settings">Settings</string>
+    <string name="Search_text">Search</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="traffic">Traffic</string>
+    <string name="numberOfMarkers">10</string>
+    <string name="searchHint">Search…</string>
+
+    <string name="GraphHopperApiKey">968c251c-4444-4cd1-92d5-cd3462411217</string>
+    <string name="HereApiKey">pwDlrrYGMRFsjlRSi60gVRfbyk7wDEDZXPpH7jAm5os</string>
+
+</resources>

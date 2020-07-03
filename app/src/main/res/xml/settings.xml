@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<CheckBoxPreference
+    android:key="Start_route_from_current_location_preference"
+    android:defaultValue="true"
+    android:title="Start route from current location" />
+
+<ListPreference
+    android:key="vehicle_preference"
+    app:title="Vehicle"
+    android:defaultValue="Bike"
+    android:entries="@array/vehicle_values"
+    android:entryValues="@array/vehicle_values"
+    />
+
+<SeekBarPreference
+    android:defaultValue="4"
+    android:key="jam_factor_preference"
+    android:max="10"
+    android:title="Jam factor"
+    app:min="0" />
+
+<CheckBoxPreference
+    android:key="display_default_route_preference"
+    android:defaultValue="false"
+    android:title="Display default route" />
+
+<SeekBarPreference
+    android:defaultValue="250"
+    android:key="radius_preference"
+    android:max="1000"
+    android:title="Radius"
+    app:min="0" />
+
+</androidx.preference.PreferenceScreen>

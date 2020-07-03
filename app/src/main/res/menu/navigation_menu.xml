@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/traffic_button"
+        android:icon="@drawable/ic_traffic_black_24dp"
+        android:title="@string/traffic"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/search_button"
+        android:icon="@drawable/ic_search_24px"
+        android:title="@string/search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/start_button"
+        android:icon="@drawable/ic_directions_black_24dp"
+        android:title="@string/StartRoute"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/reset_locations"
+        android:icon="@drawable/ic_edit_location_black_24dp"
+        android:title="Reset Locations"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/reset_button"
+        android:icon="@drawable/ic_highlight_off_black_24dp"
+        android:title="@string/Reset"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/setings_button"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/Settings"
+        app:showAsAction="always" />
+
+
+
+</menu>
