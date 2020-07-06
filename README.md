@@ -6,8 +6,20 @@ The user can define in the mobile application how much environmentally friendly 
 <p align="center">
   <img src="https://github.com/Mb50102/GreenRoute/blob/master/AppExample.png" />
 </p>
--Route planning
--Load routes planned on [GraphHopper route optimization API](https://www.graphhopper.com/route-optimization/)
--Traffic data retrived from [Here API](https://developer.here.com/documentation/traffic/dev_guide/topics/what-is.html)
 
+- Route planning  
+- Load routes planned on [ GraphHopper route optimization API ](https://www.graphhopper.com/route-optimization/)
+- Traffic data retrived from [ Here API ](https://developer.here.com/documentation/traffic/dev_guide/topics/what-is.html)
+
+# Installation and setup
+
+- App wont work properly on the emulator, it needs to be installed directly on the mobile device.
+
+In String.xml GraphHopperApiKey and HereApiKey needs to be replaced with Api keys that are currently active.
+
+In the AndroidManifest.xml also Here SDK key_id and key_secret needs to be replaced.
+```python
+ <meta-data android:name="com.here.sdk.access_key_id" android:value="insert key id"/>
+ <meta-data android:name="com.here.sdk.access_key_secret" android:value="insert key secret "/>
+```
 
