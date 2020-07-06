@@ -6,5 +6,8 @@ The user can define in the mobile application how much environmentally friendly 
 <p align="center">
   <img src="https://github.com/Mb50102/GreenRoute/blob/master/AppExample.png" />
 </p>
+-Route planning
+-Load routes planned on [GraphHopper route optimization API](https://www.graphhopper.com/route-optimization/)
+-Traffic data retrived from [Here API](https://developer.here.com/documentation/traffic/dev_guide/topics/what-is.html)
 
-![#Features](https://github.com/Mb50102/GreenRoute/blob/master/AppExample.png)
+
