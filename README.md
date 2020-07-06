@@ -4,7 +4,7 @@ The user can define in the mobile application how much environmentally friendly 
 
 # Features
 <p align="center">
-  <img src="https://github.com/Mb50102/GreenRoute/blob/master/AppExample.png" />
+  <img src="https://github.com/Mb50102/GreenRoute/blob/master/AppExample.png" width="288" height="597.6" />
 </p>
 
 - Route planning  
